@@ -165,16 +165,27 @@ section {
 
 
 .home {
-    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+    background-image: linear-gradient(120deg, #464646 0%, #c2c4c5 100%);
     z-index: 1;
 }
 
-.home-content{
+.home-content {
     display: flex;
     text-align: center;
     justify-content: space-evenly;
     flex-direction: column;
     height: 100%;
+
+    h1 {
+        font-size: 3em;
+        letter-spacing: 0.2em;
+    }
+
+    p {
+        letter-spacing: 0.1em;
+        margin: 6em;
+        line-height: 3em;
+    }
 }
 
 .about {
