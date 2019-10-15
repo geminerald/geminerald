@@ -187,7 +187,7 @@ section {
 
 .skill {
   width: 10em;
-  height: 200px;
+  min-height: 200px;
   border: 1px solid red;
   margin: 20px;
   text-align: center;
@@ -202,6 +202,45 @@ section {
 }
 .card-container img {
   height: 6em;
+  margin-bottom: 1em;
+}
+
+.progress-bar {
+  width: 100%;
+  margin: auto;
+  background-color: red;
+  border-radius: 2em;
+}
+
+.filled-bar {
+  height: 100%;
+  background-color: green;
+  color: #fafafa;
+  border-radius: 2em;
+}
+
+.html-progress {
+  width: 80%;
+}
+
+.css-progress {
+  width: 90%;
+}
+
+.js-progress {
+  width: 70%;
+}
+
+.git-progress {
+  width: 75%;
+}
+
+.jq-progress {
+  width: 50%;
+}
+
+.sass-progress {
+  width: 60%;
 }
 
 /*Sections - Contact -----------------------------------------------------------Sections - Contact*/
