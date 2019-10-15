@@ -14,7 +14,7 @@ const contactSection = document.getElementById('contact');
 
 // Nav Button listeners
 
-aboutLink.addEventListener('click',()=>{
+aboutLink.addEventListener('click', () => {
 
     aboutSection.classList.add('to-front');
 
@@ -22,7 +22,7 @@ aboutLink.addEventListener('click',()=>{
     portfolioSection.classList.reomve('to-front');
 });
 
-portfolioLink.addEventListener('click', ()=>{
+portfolioLink.addEventListener('click', () => {
 
     portfolioSection.classList.add('to-front');
 
@@ -30,7 +30,7 @@ portfolioLink.addEventListener('click', ()=>{
     aboutSection.classList.remove('to-front');
 });
 
-contactLink.addEventListener('click',()=>{
+contactLink.addEventListener('click', () => {
     contactSection.classList.add('to-front');
     homeSection.classList.remove('to-front');
     portfolioSection.classList.remove('to-front');
