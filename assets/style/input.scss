@@ -314,9 +314,9 @@ section {
 /*Change Classes-----------------------------------------------------------Change Classes*/
 
 .to-front {
-    z-index: 2;
+    display: block;
 }
 
 .to-back {
-    z-index: -1;
+    display: none;
 }
