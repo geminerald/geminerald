@@ -20,6 +20,7 @@ aboutLink.addEventListener('click', () => {
 
     homeSection.classList.remove('to-front');
     portfolioSection.classList.remove('to-front');
+    contactSection.classList.remove('to-front');
 });
 
 portfolioLink.addEventListener('click', () => {
@@ -28,10 +29,12 @@ portfolioLink.addEventListener('click', () => {
 
     homeSection.classList.remove('to-front');
     aboutSection.classList.remove('to-front');
+    contactSection.classList.remove('to-front');
 });
 
 contactLink.addEventListener('click', () => {
     contactSection.classList.add('to-front');
     homeSection.classList.remove('to-front');
     portfolioSection.classList.remove('to-front');
+    aboutSection.classList.remove('to-front');
 });
