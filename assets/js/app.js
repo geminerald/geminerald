@@ -19,7 +19,7 @@ aboutLink.addEventListener('click', () => {
     aboutSection.classList.add('to-front');
 
     homeSection.classList.remove('to-front');
-    portfolioSection.classList.reomve('to-front');
+    portfolioSection.classList.remove('to-front');
 });
 
 portfolioLink.addEventListener('click', () => {
