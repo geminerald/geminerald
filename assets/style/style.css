@@ -281,11 +281,11 @@ section {
 
 /*Change Classes-----------------------------------------------------------Change Classes*/
 .to-front {
-  display: block;
+  z-index: 1;
 }
 
 .to-back {
-  display: none;
+  z-index: -1;
 }
 
 /*# sourceMappingURL=style.css.map */
