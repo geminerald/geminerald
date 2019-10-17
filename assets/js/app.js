@@ -41,10 +41,9 @@ contactLink.addEventListener('click', () => {
 
 // Preview button listeners
 
-const previewBtn = document.querySelectorAll('preview-button');
-
-previewBtn.addEventListener('click', () => {
 
 
-    simonBtn.classList.add('spin');
+
+$('.preview-button').click(function () {
+    $(this).parent('figure').parent('card').toggleClass('spin');
 });
