@@ -319,35 +319,38 @@ section {
 }
 
 .card {
-    border: 1px solid slateblue;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
     transition: 1s ease-in;
+    transform-style: preserve-3d;
 
     figure {
-        background-color: $successColor;
         position: absolute;
         display: flex;
         align-items: center;
         justify-content: space-evenly;
         flex-direction: column;
         text-align: center;
-        width: 70%;
+        width: 100%;
 
     }
 
     .front {
-        height: 92%;
+        height: 90%;
+        width: 90%;
+        background-color: $successColor;
+        border: 2px solid red;
     }
 
     .back {
         padding: 0;
+        background-color: $warningColor;
         transform: rotateY(180deg);
-        z-index: 2;
         min-height: 335px;
-        height: 92%;
+        height: 90%;
+
     }
 }
 

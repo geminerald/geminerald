@@ -45,5 +45,5 @@ contactLink.addEventListener('click', () => {
 
 
 $('.preview-button').click(function () {
-    $(this).parent('figure').parent('card').toggleClass('spin');
+    $(this).parent('figure').toggleClass('spin');
 });

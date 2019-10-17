@@ -285,32 +285,34 @@ section {
 }
 
 .card {
-  border: 1px solid slateblue;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
   transition: 1s ease-in;
+  transform-style: preserve-3d;
 }
 .card figure {
-  background-color: #3ce73c;
   position: absolute;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   flex-direction: column;
   text-align: center;
-  width: 70%;
+  width: 100%;
 }
 .card .front {
-  height: 92%;
+  height: 90%;
+  width: 90%;
+  background-color: #3ce73c;
+  border: 2px solid red;
 }
 .card .back {
   padding: 0;
+  background-color: #ff0000;
   transform: rotateY(180deg);
-  z-index: 2;
   min-height: 335px;
-  height: 92%;
+  height: 90%;
 }
 
 /*Change Classes-----------------------------------------------------------Change Classes*/
