@@ -1,4 +1,4 @@
-// Button Selectors
+// Nav Button Selectors
 
 const aboutLink = document.getElementById('about-link');
 const downloadLink = document.getElementById('download-link');
@@ -37,4 +37,14 @@ contactLink.addEventListener('click', () => {
     homeSection.classList.remove('to-front');
     portfolioSection.classList.remove('to-front');
     aboutSection.classList.remove('to-front');
+});
+
+// Preview button listeners
+
+const previewBtn = document.querySelectorAll('preview-button');
+
+previewBtn.addEventListener('click', () => {
+
+
+    simonBtn.classList.add('spin');
 });

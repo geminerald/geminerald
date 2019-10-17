@@ -29,6 +29,10 @@ button {
     cursor: pointer;
     color: $textColor;
     transition: 0.2s ease-in-out;
+    background-color: $navColor;
+    border-radius: 1em;
+    border: none;
+    margin: 1em;
 }
 
 a:hover,
@@ -303,11 +307,21 @@ section {
     padding: 10px;
 
     figure {
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-        height: 100%;
-        position: relative;
+        width: 200px;
+        height: 300px;
+        margin-top: 15px;
+    }
+
+    .front {
+        height: 92%;
+    }
+
+    .back {
+        padding: 0;
+        transform: rotateY(180deg);
+        z-index: 2;
+        min-height: 335px;
+        height: 92%;
     }
 }
 
@@ -319,4 +333,8 @@ section {
 
 .to-back {
     z-index: -1;
+}
+
+.spin {
+    transform: rotateY(180deg);
 }

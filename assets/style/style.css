@@ -20,6 +20,10 @@ button {
   cursor: pointer;
   color: #fafafa;
   transition: 0.2s ease-in-out;
+  background-color: #5d4954;
+  border-radius: 1em;
+  border: none;
+  margin: 1em;
 }
 
 a:hover,
@@ -272,11 +276,19 @@ section {
   padding: 10px;
 }
 .card figure {
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  position: relative;
+  width: 200px;
+  height: 300px;
+  margin-top: 15px;
+}
+.card .front {
+  height: 92%;
+}
+.card .back {
+  padding: 0;
+  transform: rotateY(180deg);
+  z-index: 2;
+  min-height: 335px;
+  height: 92%;
 }
 
 /*Change Classes-----------------------------------------------------------Change Classes*/
@@ -286,6 +298,10 @@ section {
 
 .to-back {
   z-index: -1;
+}
+
+.spin {
+  transform: rotateY(180deg);
 }
 
 /*# sourceMappingURL=style.css.map */
