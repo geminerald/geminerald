@@ -41,9 +41,16 @@ contactLink.addEventListener('click', () => {
 
 // Preview button listeners
 
+const previewBtn = document.getElementById('preview-button');
+const reviewBtn = document.getElementById('review-button');
+const appContainer = document.getElementById('app-card-container');
 
+// This works and looks good but is not scaleable
 
+previewBtn.addEventListener('click', () => {
+    appContainer.classList.add('spin');
+});
 
-$('.preview-button').click(function () {
-    $(this).parent('figure').toggleClass('spin');
+reviewBtn.addEventListener('click', () => {
+    appContainer.classList.remove('spin');
 });
