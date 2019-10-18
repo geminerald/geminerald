@@ -24,6 +24,8 @@ button {
   border-radius: 1em;
   border: none;
   margin: 1em;
+  min-width: 5em;
+  min-height: 2em;
 }
 
 a:hover,
@@ -40,6 +42,11 @@ nav {
   align-items: center;
   min-height: 8vh;
   background-color: #5d4954;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 5;
+  width: 100%;
 }
 
 .logo {
@@ -152,6 +159,8 @@ section {
   align-items: center;
   min-height: 92vh;
   width: 100%;
+  position: sticky;
+  top: 8vh;
 }
 
 /*Sections - Home -----------------------------------------------------------Sections - Home*/
@@ -182,6 +191,7 @@ section {
   background-image: linear-gradient(120deg, #a8b980 0%, #96e6a1 100%);
   display: flex;
   flex-direction: column;
+  z-index: 2;
 }
 .about h1 {
   letter-spacing: 0.2em;
@@ -254,7 +264,7 @@ section {
 /*Sections - Contact -----------------------------------------------------------Sections - Contact*/
 .contact {
   background-color: #41417a;
-  z-index: 0;
+  z-index: 3;
 }
 
 /*Sections - Portfolio -----------------------------------------------------------Sections - Portfolio*/
@@ -262,6 +272,7 @@ section {
   background-image: linear-gradient(120deg, #2fc566 0%, #8fd3f4 100%);
   display: flex;
   flex-direction: column;
+  z-index: 4;
 }
 
 .apps {

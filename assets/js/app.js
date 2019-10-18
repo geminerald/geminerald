@@ -15,18 +15,14 @@ const contactSection = document.getElementById('contact');
 // Nav Button listeners
 
 aboutLink.addEventListener('click', () => {
-
     aboutSection.classList.add('to-front');
-
     homeSection.classList.remove('to-front');
     portfolioSection.classList.remove('to-front');
     contactSection.classList.remove('to-front');
 });
 
 portfolioLink.addEventListener('click', () => {
-
     portfolioSection.classList.add('to-front');
-
     homeSection.classList.remove('to-front');
     aboutSection.classList.remove('to-front');
     contactSection.classList.remove('to-front');
@@ -39,18 +35,15 @@ contactLink.addEventListener('click', () => {
     aboutSection.classList.remove('to-front');
 });
 
-// Preview button listeners
 
-const previewBtn = document.getElementById('preview-button');
-const reviewBtn = document.getElementById('review-button');
-const appContainer = document.getElementById('app-card-container');
+// Preview buttons on portfolio cards
 
-// This works and looks good but is not scaleable
-
-previewBtn.addEventListener('click', () => {
-    appContainer.classList.add('spin');
+$('.preview-button').click(function () {
+    const ancestor = $(this).closest('.card');
+    ancestor.addClass('spin');
 });
 
-reviewBtn.addEventListener('click', () => {
-    appContainer.classList.remove('spin');
+$('.review-button').click(function () {
+    const ancestor = $(this).closest('.card');
+    ancestor.removeClass('spin');
 });
