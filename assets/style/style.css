@@ -296,12 +296,14 @@ section {
   display: flex;
   flex-flow: column wrap;
   align-items: center;
+  transform-style: preserve-3d;
+  transition: transform 1s ease-in;
 }
 .card figure {
   width: 200px;
   height: 300px;
   position: absolute;
-  margin-top: 15px;
+  margin-top: 2em;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -310,7 +312,6 @@ section {
 }
 .card .front {
   background-color: #3ce73c;
-  border: 2px solid blueviolet;
 }
 .card .back {
   padding: 0;
