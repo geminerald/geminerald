@@ -20,7 +20,7 @@ button {
   cursor: pointer;
   color: #fafafa;
   transition: 0.2s ease-in-out;
-  background-color: #5d4954;
+  background-color: #8860d0;
   border-radius: 1em;
   border: none;
   margin: 1em;
@@ -32,7 +32,7 @@ a:hover,
 a:focus,
 button:hover,
 button:focus {
-  color: #2121bb;
+  color: #5680e9;
 }
 
 /*Nav-----------------------------------------------------------Nav*/
@@ -41,7 +41,7 @@ nav {
   justify-content: space-around;
   align-items: center;
   min-height: 8vh;
-  background-color: #5d4954;
+  background-color: #8860d0;
   position: fixed;
   top: 0;
   left: 0;
@@ -108,7 +108,7 @@ nav {
     right: 0px;
     height: 92vh;
     top: 8vh;
-    background-color: #5d4954;
+    background-color: #8860d0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -165,7 +165,7 @@ section {
 
 /*Sections - Home -----------------------------------------------------------Sections - Home*/
 .home {
-  background-image: linear-gradient(120deg, #464646 0%, #c2c4c5 100%);
+  background-image: linear-gradient(120deg, #84ceeb 0%, #5680e9 100%);
   z-index: 1;
 }
 
@@ -188,7 +188,7 @@ section {
 
 /*Sections - About -----------------------------------------------------------Sections - About*/
 .about {
-  background-image: linear-gradient(120deg, #a8b980 0%, #96e6a1 100%);
+  background-image: linear-gradient(240deg, #5680e9, #84ceeb 100%);
   display: flex;
   flex-direction: column;
   z-index: 2;
@@ -198,7 +198,7 @@ section {
 }
 
 .skills {
-  color: #5d4954;
+  color: #8860d0;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-evenly;
@@ -226,13 +226,13 @@ section {
 .progress-bar {
   width: 100%;
   margin: auto;
-  background-color: #ff0000;
+  background-color: #c1c8e4;
   border-radius: 2em;
 }
 
 .filled-bar {
   height: 100%;
-  background-color: #3ce73c;
+  background-color: #5ab9ea;
   color: #fafafa;
   border-radius: 0.5em;
 }
@@ -263,13 +263,13 @@ section {
 
 /*Sections - Contact -----------------------------------------------------------Sections - Contact*/
 .contact {
-  background-color: #41417a;
+  background-image: linear-gradient(120deg, #84ceeb 0%, #5680e9 100%);
   z-index: 3;
 }
 
 /*Sections - Portfolio -----------------------------------------------------------Sections - Portfolio*/
 .portfolio {
-  background-image: linear-gradient(120deg, #2fc566 0%, #8fd3f4 100%);
+  background-image: linear-gradient(240deg, #84ceeb 0%, #5680e9 100%);
   display: flex;
   flex-direction: column;
   z-index: 4;
@@ -310,12 +310,15 @@ section {
   flex-flow: column wrap;
   text-align: center;
 }
+.card figure img {
+  max-width: 80%;
+}
 .card .front {
-  background-color: #3ce73c;
+  background-color: #5ab9ea;
 }
 .card .back {
   padding: 0;
-  background-color: #ff0000;
+  background-color: #c1c8e4;
   transform: rotateY(180deg);
 }
 

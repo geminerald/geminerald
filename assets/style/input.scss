@@ -5,10 +5,12 @@
 /*Colours-----------------------------------------------------------Colours*/
 
 $textColor:#fafafa;
-$navColor:#5d4954;
-$primaryColor:#2121bb;
-$successColor:#3ce73c;
-$warningColor: #ff0000;
+$navColor:#8860d0;
+$primaryColor:#5680e9;
+$successColor:#5ab9ea;
+$warningColor: #c1c8e4;
+$BGC1:#5d4954;
+$BGC2:#84ceeb;
 
 /*Universals----------------------------------------------------Universals*/
 * {
@@ -187,7 +189,7 @@ section {
 
 
 .home {
-    background-image: linear-gradient(120deg, #464646 0%, #c2c4c5 100%);
+    background-image: linear-gradient(120deg, $BGC2 0%, $primaryColor 100%);
     z-index: 1;
 
 }
@@ -215,7 +217,7 @@ section {
 /*Sections - About -----------------------------------------------------------Sections - About*/
 
 .about {
-    background-image: linear-gradient(120deg, #a8b980 0%, #96e6a1 100%);
+    background-image: linear-gradient(240deg, $primaryColor, $BGC2 100%);
     display: flex;
     flex-direction: column;
     z-index: 2;
@@ -294,14 +296,15 @@ section {
 /*Sections - Contact -----------------------------------------------------------Sections - Contact*/
 
 .contact {
-    background-color: #41417a;
+    background-image: linear-gradient(120deg, $BGC2 0%, $primaryColor 100%);
+
     z-index: 3;
 }
 
 /*Sections - Portfolio -----------------------------------------------------------Sections - Portfolio*/
 
 .portfolio {
-    background-image: linear-gradient(120deg, #2fc566 0%, #8fd3f4 100%);
+    background-image: linear-gradient(240deg, $BGC2 0%, $primaryColor 100%);
     display: flex;
     flex-direction: column;
     z-index: 4;
@@ -341,6 +344,10 @@ section {
         align-items: center;
         flex-flow: column wrap;
         text-align: center;
+
+        img {
+            max-width: 80%;
+        }
     }
 
     .front {
