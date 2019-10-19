@@ -47,3 +47,4 @@ $('.review-button').click(function () {
     const ancestor = $(this).closest('.card');
     ancestor.removeClass('spin');
 });
+

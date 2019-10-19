@@ -8,6 +8,13 @@
     <title>Zac Warner | Frontend Developer</title>
     <link rel="stylesheet" href="assets/style/style.css">
     <link rel="icon" href="assets/images/icon.jpg">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.4.0/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("user_CzeRVo0T3WRV4yAkBf7uP");
+        })();
+    </script>
 </head>
 
 <body>
@@ -111,7 +118,7 @@
             <div class="social-link">I don't have any social media?</div>
             <div class="social-link">Phone</div>
             <div class="social-link">Email</div>
-            <form>
+            <form onsubmit="return sendMail(this);" method="POST">
                 <input type="text" name="Name" Class="form-control" id="fullname" placeholder="Full Name" required />
                 <input type="email" name="emailaddress" Class="form-control" id="emailaddress"
                     placeholder="Email Address" />
@@ -188,6 +195,8 @@
     crossorigin="anonymous"></script>
 <script src="assets/js/nav.js"></script>
 <script src="assets/js/app.js"></script>
+<script src = "assets/js/email.js"></script>
+
 </body>
 
 </html>
