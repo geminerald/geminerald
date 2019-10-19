@@ -264,7 +264,33 @@ section {
 /*Sections - Contact -----------------------------------------------------------Sections - Contact*/
 .contact {
   background-image: linear-gradient(120deg, #84ceeb 0%, #5680e9 100%);
+  display: flex;
+  flex-direction: column;
   z-index: 3;
+}
+.contact form {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+.contact form button {
+  width: 40%;
+  margin: 20px auto;
+}
+.contact form textarea {
+  font-family: "Poppins", sans-serif;
+  margin: 20px;
+  border-radius: 0.5em;
+  display: flex;
+}
+.contact form ::placeholder {
+  text-align: center;
+  padding-top: 0.5em;
+}
+.contact form input {
+  border-radius: 0.5em;
+  margin: 0.5em;
+  min-height: 2em;
 }
 
 /*Sections - Portfolio -----------------------------------------------------------Sections - Portfolio*/

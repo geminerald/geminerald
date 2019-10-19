@@ -297,8 +297,38 @@ section {
 
 .contact {
     background-image: linear-gradient(120deg, $BGC2 0%, $primaryColor 100%);
-
+    display: flex;
+    flex-direction: column;
     z-index: 3;
+
+    form {
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+
+        button {
+            width: 40%;
+            margin: 20px auto;
+        }
+
+        textarea {
+            font-family: 'Poppins', sans-serif;
+            margin: 20px;
+            border-radius: 0.5em;
+            display: flex;
+        }
+
+        ::placeholder {
+            text-align: center;
+            padding-top: 0.5em;
+        }
+
+        input {
+            border-radius: 0.5em;
+            margin: 0.5em;
+            min-height: 2em;
+        }
+    }
 }
 
 /*Sections - Portfolio -----------------------------------------------------------Sections - Portfolio*/
