@@ -17,13 +17,13 @@ $BGC2:#84ceeb;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body {
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
     color: $textColor;
-    scroll-behavior: smooth;
 }
 
 a,
