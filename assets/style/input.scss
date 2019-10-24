@@ -4,12 +4,13 @@
 
 /*Colours-----------------------------------------------------------Colours*/
 
-$textColor:#fafafa;
+$textColor:#00164d;
 $navColor:#8860d0;
+$navTextColour:#fafafa;
 $primaryColor:#5680e9;
 $successColor:#5ab9ea;
 $warningColor: #c1c8e4;
-$BGC1:#5d4954;
+$BGC1:#dddddd;
 $BGC2:#84ceeb;
 
 /*Universals----------------------------------------------------Universals*/
@@ -30,7 +31,7 @@ a,
 button {
     text-decoration: none;
     cursor: pointer;
-    color: $textColor;
+    color: $navTextColour;
     transition: 0.2s ease-in-out;
     background-color: $navColor;
     border-radius: 1em;
@@ -46,7 +47,6 @@ button:hover,
 button:focus {
     color: $primaryColor;
 }
-
 
 /*Nav-----------------------------------------------------------Nav*/
 
@@ -85,7 +85,7 @@ nav {
 
 .nav-links button,
 .nav-links a {
-    color: $textColor;
+    color: $navTextColour;
     text-decoration: none;
     letter-spacing: 3px;
     font-weight: bold;
@@ -191,7 +191,7 @@ section {
 
 
 .home {
-    background-image: linear-gradient(120deg, $BGC2 0%, $primaryColor 100%);
+    background-image: linear-gradient(120deg, $BGC2 0%, $BGC1 100%);
     z-index: 1;
 
 }
@@ -219,7 +219,7 @@ section {
 /*Sections - About -----------------------------------------------------------Sections - About*/
 
 .about {
-    background-image: linear-gradient(240deg, $primaryColor, $BGC2 100%);
+    background-image: linear-gradient(240deg, $BGC1, $BGC2 100%);
     display: flex;
     flex-direction: column;
     z-index: 2;
@@ -298,7 +298,7 @@ section {
 /*Sections - Contact -----------------------------------------------------------Sections - Contact*/
 
 .contact {
-    background-image: linear-gradient(120deg, $BGC2 0%, $primaryColor 100%);
+    background-image: linear-gradient(120deg, $BGC2 0%, $BGC1 100%);
     display: flex;
     flex-direction: column;
     z-index: 3;
@@ -337,7 +337,7 @@ section {
 /*Sections - Portfolio -----------------------------------------------------------Sections - Portfolio*/
 
 .portfolio {
-    background-image: linear-gradient(240deg, $BGC2 0%, $primaryColor 100%);
+    background-image: linear-gradient(240deg, $BGC2 0%, $BGC1 100%);
     display: flex;
     flex-direction: column;
     z-index: 4;
@@ -395,9 +395,18 @@ section {
         padding: 0;
         background-color: $warningColor;
         transform: rotateY(180deg);
-
-
     }
+}
+
+.preview-button,
+.review-button,
+.portfolio-links {
+    min-height: 2em;
+    display: flex;
+    align-items: center;
+    padding: 1em;
+    text-align: center;
+    justify-content: center;
 }
 
 /*Change Classes-----------------------------------------------------------Change Classes*/
