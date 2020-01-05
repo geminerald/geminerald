@@ -110,6 +110,30 @@ nav {
 
 }
 
+input[type="checkbox"] {
+    cursor: pointer;
+    z-index: 10;
+    position: fixed;
+    top: 30px;
+    right: 50px;
+    color: $navTextColour;
+    background-color: $navColor;
+}
+
+input[type="checkbox"]:before {
+    content: "Dark";
+    padding: 10px 20px;
+}
+
+input[type="checkbox"]:checked::before {
+    content: "Light"
+}
+
+input[type="checkbox"]:checked~* {
+    filter: invert(1);
+}
+
+
 @media screen and (max-width:1068px) {
     .nav-links {
         width: 50%;
