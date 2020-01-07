@@ -10,8 +10,8 @@ $navTextColour:#fafafa;
 $primaryColor:#5680e9;
 $successColor:#5ab9ea;
 $warningColor: #c1c8e4;
-$BGC1:#dddddd;
-$BGC2:#84ceeb;
+$BGC1:#ffffff;
+$BGC2:#fafafa;
 
 /*Universals----------------------------------------------------Universals*/
 * {
@@ -131,6 +131,10 @@ input[type="checkbox"]:checked::before {
 
 input[type="checkbox"]:checked~* {
     filter: invert(1);
+}
+
+input[type="checkbox"]:checked~ .no-dark-mode {
+    filter: initial;
 }
 
 
