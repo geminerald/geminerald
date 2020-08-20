@@ -117,9 +117,15 @@ body{
 }
 
 
+
 .anchor-link, .anchor-header{
     text-decoration: none;
     color: #fafafa;
+    transition: 0.2s ease-in-out;
+}
+
+.anchor-header:hover{
+    background-color: #585353;
 }
 
 /* Development */
