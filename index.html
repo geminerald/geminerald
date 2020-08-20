@@ -19,22 +19,21 @@
 
 <body>
     
-    <input type="checkbox">
     <nav class = "no-dark-mode">
         <div class="logo">
-            <a href="#home">
-                <h4>Zac Warner</h4>
+            <a class="anchor-link" href="#">
+                <h4 class="anchor-header">Zac Warner</h4>
             </a>
         </div>
         <ul class="nav-links">
             <li>
-                <a class="nav-link" id="about-link" href="#about">About</a>
+                <a class="nav-link" id="about-link" href="#">About</a>
             </li>
             <li>
-                <a href="#contact">Contact</a>
+                <a href="#">Contact</a>
             </li>
             <li>
-                <a class="nav-link" id="portfolio-link" href="#portfolio">Portfolio</a>
+                <a class="nav-link" id="portfolio-link" href="#">Portfolio</a>
             </li>
             <li>
                 <a href="./assets/pdf/cv.pdf" target="_blank">Download CV</a>
@@ -49,152 +48,17 @@
     </nav>
 
     <main>
+        <section>
+            <H1>Zac Warner</H1>
+            <img src="https://websitesetup.org/wp-content/uploads/2019/01/Web-Developer.jpg" alt="">
+            <h2>Geminerald Studios</h2>
+        </section>
+        <section>Portfolio</section>
+        <section>Skills</section>
+        <section>Contact</section>
+    </main>
         
-        <section class="home" id="home">
-            <div class="home-content">
-                <h1>Zac Warner</h1>
-                <p>Really good at HTML, CSS, JavaScript, jQuery, Sass and a whole bunch of other stuff. How can you be
-                    sure? Employ me!</p>
-            </div>
-        </section>
-        <section class="about" id="about">
-            <h1 class="skill-header">My Wicked Skills Yo</h1>
-            <div class="skills">
-                <div class="skill">
-                    <div class="card-container">
-                        <h4>HTML</h4>
-                        <img src="./assets/images/skills/html.png" alt="HTML5 Logo">
-                        <div class="progress-bar">
-                            <div class="filled-bar html-progress">80%</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="skill">
-                    <div class="card-container">
-                        <h4>CSS</h4>
-                        <img src="./assets/images/skills/css.png" alt="CSS3 Logo">
-                        <div class="progress-bar">
-                            <div class="filled-bar css-progress">80%</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="skill">
-                    <div class="card-container">
-                        <h4>JavaScript</h4>
-                        <img src="./assets/images/skills/javascript.png" alt="JavaScript ES 6 Logo">
-                        <div class="progress-bar">
-                            <div class="filled-bar js-progress">80%</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="skill">
-                    <div class="card-container">
-                        <h4>git</h4>
-                        <img src="./assets/images/skills/git.png" alt="Git Logo">
-                        <div class="progress-bar">
-                            <div class="filled-bar git-progress">80%</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="skill">
-                    <div class="card-container">
-                        <h4>jQuery</h4>
-                        <img src="./assets/images/skills/jQuery.png" alt="jQuery Logo">
-                        <div class="progress-bar">
-                            <div class="filled-bar jq-progress">80%</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="skill">
-                    <div class="card-container">
-                        <h4>Sass</h4>
-                        <img src="./assets/images/skills/sass.svg" alt="Sass Logo">
-                        <div class="progress-bar">
-                            <div class="filled-bar sass-progress">80%</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="contact" id="contact">
-            <h1 class="contact-header"></h1>
-            <div class="social-link">I don't have any social media?</div>
-            <div class="social-link">Phone</div>
-            <div class="social-link">Email</div>
-            <form onsubmit="return sendMail(this);" method="POST">
-                <input type="text" name="Name" Class="form-control" id="fullname" placeholder="Full Name" required />
-                <input type="email" name="emailaddress" Class="form-control" id="emailaddress"
-                    placeholder="Email Address" />
-                <textarea rows="7" name="projectsummary" class="form-control" id="projectsummary"
-                    placeholder="Project Description or Job Spec"></textarea>
-                <button type="submit">Send</button>
-
-            </form>
-        </section>
-        <section class="portfolio" id="portfolio">
-            <h1 class="portfolio-header">Portfolio</h1>
-            <div class="apps">
-                <div class="app-card-container" id="app-card-container">
-                    <div class="card" id="simon-card">
-                        <figure class="front">
-                            <h4>Rainbow Simon</h4>
-                            <p>A 21st Century take on the classic Simon game</p>
-                            <a class="portfolio-links" href="https://geminerald.github.io/simon-game/"
-                                target="_blank">Link to Game</a>
-                            <button class="preview-button">Preview</button>
-                        </figure>
-                        <figure class="back"><img src="./assets/images/portfolio/simon-preview.JPG"
-                                alt="Preview Image of App">
-                            <button class="review-button">Back</button></figure>
-                    </div>
-                </div>
-                <div class="app-card-container" id="app-card-container">
-                    <div class="card" id="simon-card">
-                        <figure class="front">
-                            <h4>Horse, Bomb, Lake</h4>
-                            <p>The Mongolian Version of Rock, Paper, Scissors</p>
-                            <a class="portfolio-links" href="https://geminerald.github.io/horse-bomb-lake/"
-                                target="_blank">Link to Game</a>
-                            <button class="preview-button">Preview</button>
-                        </figure>
-                        <figure class="back"><img src="assets\images\portfolio\hbl.JPG" alt="Preview Image of App">
-                            <button id="review-button" class="review-button">Back</button></figure>
-                    </div>
-                </div>
-                <div class="app-card-container" id="app-card-container">
-                    <div class="card">
-                        <figure class="front">
-                            <h4>Peak Wellness</h4>
-                            <p>A website for a Pilates/Personal Trainer in Dublin</p>
-                            <a class="portfolio-links" href="https://geminerald.github.io/peakwellness/"
-                                target="_blank">Link to Site</a>
-                            <button class="preview-button">Preview</button>
-                        </figure>
-                        <figure class="back"><img src="assets\images\portfolio\peak-wellness-preview.JPG"
-                                alt="Preview Image of Site">
-                            <button class="review-button">Back</button></figure>
-                    </div>
-                </div>
-                <div class="app-card-container" id="app-card-container">
-                    <div class="card">
-                        <figure class="front">
-                            <h4>Meditate App</h4>
-                            <p>A simple Meditation Aid</p>
-                            <a class="portfolio-links" href="https://geminerald.github.io/meditation-app/"
-                                target="_blank">Link to Game</a>
-                            <button class="preview-button">Preview</button>
-                        </figure>
-                        <figure class="back"><img src="assets\images\portfolio\meditate-app-preview.JPG"
-                                alt="Preview Image of App">
-                            <button class="review-button">Back</button></figure>
-                    </div>
-                </div>
-            </div>
-            <div class="github">
-                <h1>link/API to repos</h1>
-            </div>
-        </section>
-
+       
 </html>
 <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
     crossorigin="anonymous"></script>

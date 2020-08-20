@@ -116,3 +116,8 @@ body{
     transform:rotate(45deg) translate(-5px, -6px);
 }
 
+
+.anchor-link, .anchor-header{
+    text-decoration: none;
+    color: #fafafa;
+}
