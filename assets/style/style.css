@@ -232,7 +232,7 @@ main{
 }
 
 .card{
-    border: 1px solid blue;
+    border: 6px solid var(--chinese-red);
 
     display: flex;
     flex-direction: column;
@@ -241,6 +241,7 @@ main{
     height: 20rem;
     width: 15rem;
     margin: 2rem;
+    border-radius: 0.75rem;
 }
 
 .card-image{
