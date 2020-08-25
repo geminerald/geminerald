@@ -253,6 +253,13 @@ main{
     text-align: center;
 }
 
+.portfolio-links{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
 .portfolio-link{
     text-decoration: none;
     color: var(--prussian-blue);
