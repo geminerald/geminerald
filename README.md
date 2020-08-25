@@ -27,7 +27,7 @@ I am a Full stack Developer. I love learning new technologies and the creating a
 ### Tech I use
 
 ![VSCode](https://img.shields.io/static/v1?label=VSCode&message=1.48-insider&style=for-the-badge&color=1FC0A7&logo=visual-studio)
-![Github](https://img.shields.io/static/v1?label=GitHub&message=Eventyret&color=181717&style=for-the-badge&logo=github)
+![Github](https://img.shields.io/static/v1?label=GitHub&message=geminerald&color=181717&style=for-the-badge&logo=github)
 
 ### Watch this space . . . .
 
@@ -35,14 +35,6 @@ I am a Full stack Developer. I love learning new technologies and the creating a
 
 <hr>
 <p align="center">
-  <i>Let's connect and chat! Open to anyone on Earth under the Sun and Moon.</i>
+  <i>Let's connect!</i>
 
-  <p align="center">
-    <a href="https://twitter.com/eventyret" alt="Twitter" target="_blank"><img src="https://github.com/eventyret/eventyret/blob/master/assets/twitter.png"></a>
-    <a href="https://www.linkedin.com/in/simendaehlin" alt="Linkedin" target="_blank"><img src="https://github.com/eventyret/eventyret/blob/master/assets/linkedin.png"></a>
-    <a href="https://www.instagram.com/eventyret" alt="Instagram" target="_blank"><img src="https://github.com/eventyret/eventyret/blob/master/assets/insta.png"></a>
-    <a href="https://github.com/eventyret" alt="GitHub" target="_blank"><img src="https://github.com/eventyret/eventyret/blob/master/assets/github.png"></a>
-
-  </p>
-  
 </p>
