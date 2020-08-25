@@ -145,9 +145,6 @@ body{
 
 /* Development */
 
-body{
-    min-height: 300vh;
-}
 
 
 /* Home Page */
@@ -241,8 +238,8 @@ main{
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    height: 16rem;
-    width: 12rem;
+    height: 20rem;
+    width: 15rem;
     margin: 2rem;
 }
 
