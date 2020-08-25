@@ -132,9 +132,6 @@ body{
     transition: 0.2s ease-in-out;
 }
 
-.anchor-header:hover{
-    background-color: #585353;
-}
 
 /* Development */
 
@@ -144,7 +141,7 @@ body{
 
 main{
     width: 80%;
-    background-color: #96aeee;
+    background-color: #ffffff;
     margin: auto;
     display: flex;
     justify-content: space-evenly;
@@ -160,8 +157,8 @@ main{
 }
 
 .home-header{
-    color: #fafafa;
-    font-size: 2rem;
+    color: #233C65;
+    font-size: 3.5rem;
     margin: 2rem;
 }
 
