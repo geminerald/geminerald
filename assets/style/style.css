@@ -139,6 +139,9 @@ body{
     min-height: 300vh;
 }
 
+
+/* Home Page */
+
 main{
     width: 80%;
     background-color: #ffffff;
@@ -149,6 +152,14 @@ main{
     flex-flow: column wrap;
 }
 
+
+.home-header{
+    color: #233C65;
+    font-size: 3.5rem;
+    margin: 2rem;
+}
+/* Intro Section */
+
 .intro{
     display: flex;
     flex-flow: column wrap;
@@ -156,11 +167,6 @@ main{
     align-items: center;
 }
 
-.home-header{
-    color: #233C65;
-    font-size: 3.5rem;
-    margin: 2rem;
-}
 
 .buttons{
     margin: 4rem;
@@ -197,4 +203,31 @@ main{
 #game-stuido-button:hover{
     background-color: #112A55;
     cursor: pointer;
+}
+
+
+
+/* Portfolio Section */
+
+.portfolio-section{
+    width: 90%;
+}
+
+.portfolio-row{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.card{
+    border: 1px solid blue;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 16rem;
+    width: 12rem;
+    margin: 2rem;
 }
