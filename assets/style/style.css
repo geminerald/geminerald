@@ -19,7 +19,7 @@ html{
     --fire-opal: #EB5F46;
     --chinese-red: #B13720;
     --red-colour: #EB2A09;
-    --red-colour: #FD7156;
+    --bittersweet: #FD7156;
     --white-colour: #fafafa;
 }
 
@@ -232,7 +232,7 @@ main{
 }
 
 .card{
-    border: 6px solid var(--chinese-red);
+    border: 6px solid var(--bittersweet);
 
     display: flex;
     flex-direction: column;
