@@ -195,6 +195,10 @@ main{
     border: none;
     border-radius: 6px;
     transition: 0.2s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
 }
 
 #dev-stuido-button{
@@ -216,14 +220,14 @@ main{
 }
 
 
-
 /* Portfolio Section */
 
 .portfolio-section{
     width: 90%;
 }
 
-.portfolio-row{
+.portfolio-row,
+.skills-row{
     width: 100%;
     display: flex;
     flex-flow: row wrap;
@@ -243,7 +247,7 @@ main{
 }
 
 .card-image{
-    height: 2rem;
+    height: 5rem;
 }
 
 
