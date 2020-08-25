@@ -13,6 +13,16 @@ html{
     font-family: "Poppins", sans-serif;
 }
 
+:root{
+    --prussian-blue: #233C65;
+    --hover-blue: #112A55;
+    --fire-opal: #EB5F46;
+    --chinese-red: #B13720;
+    --red-colour: #EB2A09;
+    --red-colour: #FD7156;
+    --white-colour: #fafafa;
+}
+
 
 
 /* Navbar */
@@ -238,3 +248,13 @@ main{
 
 
 /* Skills Section */
+
+
+/* Contact Section */
+
+
+/* Footer */
+
+footer{
+    width: 100%;
+}
