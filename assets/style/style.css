@@ -248,6 +248,11 @@ main{
     height: 5rem;
 }
 
+.card-p{
+    width: 80%;
+    text-align: center;
+}
+
 
 /* Skills Section */
 
