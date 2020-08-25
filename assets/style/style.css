@@ -275,5 +275,5 @@ footer{
     color: var(--white-colour);
     text-decoration: none;
     cursor: pointer;
-
+    font-size: 1.2rem;
 }
