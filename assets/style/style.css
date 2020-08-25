@@ -250,6 +250,22 @@ main{
 
 /* Skills Section */
 
+.libs-button{
+    padding: 1rem;
+    background-color: var(--prussian-blue);
+    color: var(--white-colour);
+    border: 2px solid #ffffff;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    font-size: 1rem;
+}
+
+.libs-button:hover{
+    background-color: var(--white-colour);
+    color: var(--prussian-blue);
+    border: 2px solid var(--prussian-blue);
+}
 
 /* Contact Section */
 
