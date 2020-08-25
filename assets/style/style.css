@@ -253,6 +253,11 @@ main{
     text-align: center;
 }
 
+.portfolio-link{
+    text-decoration: none;
+    color: var(--prussian-blue);
+}
+
 
 /* Skills Section */
 
