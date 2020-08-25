@@ -187,6 +187,7 @@ main{
 
 #dev-stuido-button:hover{
     background-color: #EB5F46;
+    cursor: pointer;
 }
 
 #game-stuido-button{
@@ -195,4 +196,5 @@ main{
 
 #game-stuido-button:hover{
     background-color: #112A55;
+    cursor: pointer;
 }
