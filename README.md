@@ -20,7 +20,7 @@ I am a Full stack Developer. I love learning new technologies and the creating a
 ### Libraries || Frameworks I use
 
 
-![Django](https://img.shields.io/static/v1?label=jQuery&style=for-the-badge&message=3.0.8&color=092E20&logo=jquery)
+![Jquery](https://img.shields.io/static/v1?label=jQuery&style=for-the-badge&message=3.2&color=092E20&logo=jquery)
 ![Flask](https://img.shields.io/static/v1?label=Flask&style=for-the-badge&message=1.1.2&color=181717&logo=flask)
 ![Django](https://img.shields.io/static/v1?label=Django&style=for-the-badge&message=3.0.8&color=092E20&logo=django)
 
