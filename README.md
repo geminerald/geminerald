@@ -4,7 +4,7 @@
 ## Full Stack Developer
 
 <p align="center">
-  <img src="https://media.giphy.com/media/Nx0rz3jtxtEre/giphy.gif">
+  <img src="https://media.giphy.com/media/yoJC2A59OCZHs1LXvW/giphy.gif">
 </p>
 
 I am a Full stack Developer. I love learning new technologies and the creating and problem solving that comes with it.
@@ -15,11 +15,10 @@ I am a Full stack Developer. I love learning new technologies and the creating a
 ![CSS](https://img.shields.io/static/v1?label=CSS&message=3&color=1572B6&style=for-the-badge&logo=css3)
 ![Javascript](https://img.shields.io/static/v1?label=JavaScript&message=ES6&style=for-the-badge&color=F7DF1E&logo=JavaScript)
 ![Python](https://img.shields.io/static/v1?label=Python&style=for-the-badge&message=3&color=3776AB&logo=PYTHON)
-![SCSS](https://img.shields.io/static/v1?label=sass&style=for-the-badge&message=🦄&color=CC6699&logo=sass)
 
 ### Libraries || Frameworks I use
 
-
+![SCSS](https://img.shields.io/static/v1?label=sass&style=for-the-badge&message=🦄&color=CC6699&logo=sass)
 ![Jquery](https://img.shields.io/static/v1?label=jQuery&style=for-the-badge&message=3.2&color=092E20&logo=jquery)
 ![Flask](https://img.shields.io/static/v1?label=Flask&style=for-the-badge&message=1.1.2&color=181717&logo=flask)
 ![Django](https://img.shields.io/static/v1?label=Django&style=for-the-badge&message=3.0.8&color=092E20&logo=django)
