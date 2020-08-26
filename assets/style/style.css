@@ -110,6 +110,7 @@ main{
     color: #233C65;
     font-size: 3.5rem;
     margin: 2rem;
+    text-align: center;
 }
 /* Intro Section */
 
@@ -276,6 +277,10 @@ footer{
 @media screen and (max-width:1068px){
     .nav-links{
         width: 50%;
+    }
+
+    .buttons{
+        margin: 0 auto;
     }
 
     .studio-link{
