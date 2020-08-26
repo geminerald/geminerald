@@ -7,7 +7,9 @@
   <img src="https://media.giphy.com/media/yoJC2A59OCZHs1LXvW/giphy.gif">
 </p>
 
-I am a Full stack Developer. I love learning new technologies and the creating and problem solving that comes with it.
+I am a Full stack Developer based in the Dublin area. I love learning new technologies and the creating and problem solving that comes with it.
+
+
 
 ### Languages I Know
 
@@ -31,6 +33,11 @@ I am a Full stack Developer. I love learning new technologies and the creating a
 ### Watch this space . . . .
 
 ![My github stats](https://github-readme-stats.vercel.app/api?username=geminerald&show_icons=true)
+
+
+### Human Languages I Know
+
+
 
 <hr>
 <p align="center">
