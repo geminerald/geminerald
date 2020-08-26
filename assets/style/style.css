@@ -273,6 +273,12 @@ footer{
     font-size: 1.2rem;
 }
 
+.studio-intro{
+    margin: 2rem auto;
+    font-size: 2rem;
+    text-align: center;
+}
+
 
 @media screen and (max-width:1068px){
     .nav-links{
