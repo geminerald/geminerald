@@ -248,6 +248,29 @@ main{
 
 /* Contact Section */
 
+.contact-details{
+    width: 100%;
+    min-height: 5rem;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.contact-detail{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.contact-detail a{
+    text-decoration: none;
+    color: var(--prussian-blue);
+}
+
+.contact-method{
+    font-size: 2.5rem !important;
+    color: var(--prussian-blue);
+    margin: 1rem;
+}
 
 /* Footer */
 

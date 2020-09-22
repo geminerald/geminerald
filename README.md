@@ -35,7 +35,12 @@ I am a Full stack Developer based in the Dublin area. I love learning new techno
 ![My github stats](https://github-readme-stats.vercel.app/api?username=geminerald&show_icons=true)
 
 
-### Human Languages I Know
+### Human Languages:
+
+English
+German
+Spanish
+Irish
 
 
 
