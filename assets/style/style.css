@@ -253,6 +253,7 @@ main{
     min-height: 5rem;
     display: flex;
     flex-flow: column wrap;
+    margin: 4rem 0rem;
 }
 
 .contact-detail{
