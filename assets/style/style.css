@@ -250,7 +250,7 @@ main{
 
 .contact-details{
     width: 100%;
-    min-height: 5rem;
+    min-height: 6rem;
     display: flex;
     flex-flow: column wrap;
     margin: 4rem 0rem;
