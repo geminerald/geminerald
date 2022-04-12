@@ -50,6 +50,14 @@ button:focus {
 
 /*Nav-----------------------------------------------------------Nav*/
 
+.skip-nav{
+    display: hidden;
+}
+
+.skip-nav:hover{
+    display: block;
+}
+
 nav {
     display: flex;
     justify-content: space-around;
